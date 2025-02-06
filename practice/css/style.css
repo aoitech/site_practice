@@ -2,6 +2,7 @@ body {
   font-family: "Josefin Sans", "Noto Sans JP", sans-serif;
 }
 
+/* header */
 .header {
   position: fixed;
   top: 0;
@@ -12,6 +13,7 @@ body {
   padding: 12px;
 }
 
+/* 共通クラス */
 .header-nav {
   margin-top: 10px;
 }
@@ -24,4 +26,45 @@ body {
 
 .header-nav-link {
   color: #fff;
+}
+
+.inner {
+  padding: 0 40px;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-heading-main {
+  font-size: 40px;
+  display: block;
+}
+
+.section-heading-sub {
+  font-size: 12px;
+  display: block;
+}
+
+/* aboutセクション */
+.about {
+  padding: 40px 0;
+  background-color: #f1eee4;
+}
+.about-contents {
+
+}
+
+.about-text-contents {
+  margin-top: 20px;
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 2;
+}
+
+.about-text + .about-text {
+  margin-top: 16px;
 }
