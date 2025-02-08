@@ -37,6 +37,10 @@ body {
   margin-bottom: 40px;
 }
 
+.section-heading-l {
+  color: #fff;
+}
+
 .section-heading-main {
   font-size: 40px;
   display: block;
@@ -115,4 +119,31 @@ body {
   font-size: 14px;
   color: #a98c5f;
   margin-top: 16px;
+}
+
+/* shopセクション */
+.shop {
+  background-image: url(../img/bg-shop.png);
+  background-position: center center;
+  background-size: cover;
+  padding-top: 80px 0;
+}
+
+.shop-inner {
+  padding: 0 20px;
+}
+
+.shop-contents {
+
+}
+
+.shop-text {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.form {
+
 }
